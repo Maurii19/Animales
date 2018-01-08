@@ -9,4 +9,10 @@ public class Puercoespin extends Animal {
 		super.setPatas(patas);
 	}
 
+	@Override
+	public void mostrar() {
+		System.out.println(this.getEspecie() + " " + this.getPatas());
+		
+	}
+
 }

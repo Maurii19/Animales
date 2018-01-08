@@ -7,7 +7,7 @@ public class MainElefante {
 		E3.setEspecie("Elefante");
 		E3.setPatas(4);
 		E3.setColor("gris");
-		E3.mostrarInfo();
+		E3.mostrar();
 
 	}
 

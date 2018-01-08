@@ -8,7 +8,7 @@ public class MainRana {
 		
 		
 	//Mostrar informacion de rana
-		r2.mostrarInfo();
+		r2.mostrar();
 	}
 
 }

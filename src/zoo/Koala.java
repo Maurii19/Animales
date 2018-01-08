@@ -15,12 +15,7 @@ public class Koala extends Animal{
 	public Koala() {
 		
 	}
-
-
-	public void mostar(){
-		System.out.println("El color del koala es " + this.getColor());
-		super.mostrar();
-	}
+	
 
 	public String getColor() {
 		return color;
@@ -28,6 +23,12 @@ public class Koala extends Animal{
 
 	public void setColor(String color) {
 		this.color = color;
+	}
+
+
+	@Override
+	public void mostrar() {
+		System.out.println("El color del koala es " + this.getColor());		
 	}
 
 }

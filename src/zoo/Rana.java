@@ -27,14 +27,16 @@ public class Rana extends Animal{
 	public void setColor(String color) {
 		Color = color;
 	}
-	
-	//MostrarInfo
-	
-	public void mostrarInfo(){
+
+	@Override
+	public void mostrar() {
 		System.out.println("La especie es: " + super.getEspecie());
 		System.out.println("Tiene " + super.getPatas() + " patas.");
 		System.out.println("Es de color " + this.getColor());
+		
 	}
+
+
 	
 	
 

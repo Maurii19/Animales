@@ -31,10 +31,7 @@ public class Marmota extends Animal{
 	 * Functions
 	 */
 	
-	public void mostrarinfo(){
-		System.out.println("El " + super.getEspecie() +" tiene " + this.getPeso() +" kilos");
-	}
-	
+
 
 	
 	/*
@@ -44,5 +41,12 @@ public class Marmota extends Animal{
 		super("marota", 4);
 		this.setPeso(peso);
 	}
+
+	@Override
+	public void mostrar() {
+		// TODO Auto-generated method stub
+		System.out.println("El " + super.getEspecie() +" tiene " + this.getPeso() +" kilos");
+	}
+
 	
 }

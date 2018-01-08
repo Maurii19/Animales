@@ -25,30 +25,6 @@ public class Pinguino  extends Animal {
 
 
 
-	public void mostrar(){
-		
-		
-		String volar="";
-		if(vuela==true){
-			volar= "vuelo";
-			
-		}else
-			volar= "no vuelo";
-		
-		
-		String alado="";
-		if(alas==true){
-			alado=" tengo alas";
-		}else{
-			alado=" no tengo alas";
-		}
-		super.mostrar();
-		System.out.print(volar);
-		System.out.print(alado);
-		System.out.print(" y como "+getTipoComida());
-		
-		
-	}
 	
 	
 
@@ -86,6 +62,41 @@ public class Pinguino  extends Animal {
 
 	public void setAlas(boolean alas) {
 		this.alas = alas;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	@Override
+	public void mostrar() {
+		String volar="";
+		if(vuela==true){
+			volar= "vuelo";
+			
+		}else
+			volar= "no vuelo";
+		
+		
+		String alado="";
+		if(alas==true){
+			alado=" tengo alas";
+		}else{
+			alado=" no tengo alas";
+		}
+		
+		System.out.print(volar);
+		System.out.print(alado);
+		System.out.print(" y como "+getTipoComida());
+		
 	}
 	
 	
