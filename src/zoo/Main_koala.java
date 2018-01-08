@@ -5,11 +5,12 @@ import zoo.Perro;
 import zoo.Elefante;
 import zoo.Mono;
 import zoo.Leon;
+import zoo.Animal;
 
-public class Main_koala{
+
+public  class Main_koala {
 
 	public static void main(String[] args) {
-		
 		Animal [] animales = new Animal[4];
 		
 		animales [0] = new Koala();
@@ -19,11 +20,12 @@ public class Main_koala{
 		animales [4] = new Leon();
 		
 		for (int i = 0; i < animales.length; i++){
-			Animal[] animales2 = animales;
+			Animal animal = animales[i];
 			
-			
+			animal.mostrar();
 			
 		}
+		
 		
 		
 		
