@@ -28,7 +28,7 @@ public class Koala extends Animal{
 
 	@Override
 	public void mostrar() {
-		System.out.println("El color del koala es " + this.getColor());		
+		System.out.println("El color del koala es " + this.getColor() + " y tiene " + this.getPatas() + " patas");		
 	}
 
 }

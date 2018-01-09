@@ -16,9 +16,10 @@ public class Leon extends Animal {
 	
 	public Leon (double peso, double altura, int edad){
 		super("leon", 4);
+		this.peso = peso;
 		this.altura = altura;
 		this.edad = edad;
-		this.peso = peso;
+		
 	}
 	
 	
